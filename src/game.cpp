@@ -99,7 +99,7 @@ bool Game::loadCommands()
 		command;
 
 	// create ifstream obj and open file
-	fstream infile("commands.csv");
+	fstream infile("src/commands.csv");
 	
 	if (infile.is_open())
 	{
@@ -145,7 +145,7 @@ bool Game::loadProfiles()
 		score;
 
 	// create ifstream obj and open file
-	fstream infile("profiles.csv");
+	fstream infile("src/profiles.csv");
 
 	if (infile.is_open())
 	{
@@ -690,7 +690,7 @@ bool Game::saveProfiles()
 	bool success = false;
 
 	// create ofstream obj and open file
-	ofstream outfile("profiles.csv");
+	ofstream outfile("src/profiles.csv");
 
 	// read each entry in Profiles array and write to the file
 	if (outfile.is_open())
