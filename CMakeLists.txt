@@ -13,7 +13,7 @@ set(MAIN_DIR /Users/genevievekochel/Downloads/WSU_Classes/CPTS_223/PA/PA1)
 set(BUILD_DIR ${CMAKE_BINARY_DIR})
 
 # List of CSV files to link
-set(CSV_FILES profiles.csv commands.csv)
+set(CSV_FILES src/profiles.csv src/commands.csv)
 
 # Function to create symbolic links
 function(create_symlinks)

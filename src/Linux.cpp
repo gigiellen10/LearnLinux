@@ -25,6 +25,8 @@ accepts/returns: a string to be checked, returns true if str is only numbers fal
 
 bool isNumericStr(const string& str)
 {
+	if (str.empty()) return false;
+	
 	for (char n : str)
 	{
 		// check if every character in str is a digit and not whitespace
