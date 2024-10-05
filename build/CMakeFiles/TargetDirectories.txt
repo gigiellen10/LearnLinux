@@ -1,0 +1,4 @@
+/Users/genevievekochel/Downloads/PersonalProjects/LearnLinux/build/CMakeFiles/LearnLinux.dir
+/Users/genevievekochel/Downloads/PersonalProjects/LearnLinux/build/CMakeFiles/symlinks.dir
+/Users/genevievekochel/Downloads/PersonalProjects/LearnLinux/build/CMakeFiles/edit_cache.dir
+/Users/genevievekochel/Downloads/PersonalProjects/LearnLinux/build/CMakeFiles/rebuild_cache.dir
